@@ -10,7 +10,7 @@ Cart Infinity is a cutting-edge, fully-featured online shopping platform designe
 
 ### Clone the Repository
 git clone https://github.com/reddymanyam/cart-infinity
-cd cart-infinity
+- cd cart-infinity
 
 ### Install Dependencies
 npm install
