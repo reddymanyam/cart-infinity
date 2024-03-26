@@ -2,11 +2,11 @@
 Cart Infinity is a cutting-edge, fully-featured online shopping platform designed to provide a seamless and secure shopping experience. Built with React and Firebase, this app offers users a dynamic cart system, category-based filtering for efficient navigation, and a modern, responsive design across all devices.
 
 ## Features
-Secure User Authentication: Utilizes Firebase authentication to provide secure login and signup processes.
-Dynamic Cart System: Allows users to add, remove, or adjust quantities of items in their shopping cart on the fly.
-Category-Based Filtering: Enhances the shopping experience by enabling users to filter products based on categories.
-Responsive Design: Crafted with Material UI (MUI) to ensure a consistent and intuitive user interface across all devices.
-Real-Time Data Management: Integrates with Firebase for backend operations, ensuring real-time data management and synchronization.
+- **Secure User Authentication:** Utilizes Firebase authentication to provide secure login and signup processes.
+- **Dynamic Cart System:** Allows users to add, remove, or adjust quantities of items in their shopping cart on the fly.
+- **Category-Based Filtering:** Enhances the shopping experience by enabling users to filter products based on categories.
+- **Responsive Design:** Crafted with Material UI (MUI) to ensure a consistent and intuitive user interface across all devices.
+- **Real-Time Data Management:** Integrates with Firebase for backend operations, ensuring real-time data management and synchronization.
 
 ### Clone the Repository
 git clone https://github.com/reddymanyam/cart-infinity
@@ -14,14 +14,6 @@ cd cart-infinity
 
 ### Install Dependencies
 npm install
-
-### Set Up Firebase
-REACT_APP_FIREBASE_API_KEY=your_api_key
-REACT_APP_FIREBASE_AUTH_DOMAIN=your_auth_domain
-REACT_APP_FIREBASE_PROJECT_ID=your_project_id
-REACT_APP_FIREBASE_STORAGE_BUCKET=your_storage_bucket
-REACT_APP_FIREBASE_MESSAGING_SENDER_ID=your_messaging_sender_id
-REACT_APP_FIREBASE_APP_ID=your_app_id
 
 ### Start the Development Server
 npm start
