@@ -9,7 +9,7 @@ Cart Infinity is a cutting-edge, fully-featured online shopping platform designe
 - **Real-Time Data Management:** Integrates with Firebase for backend operations, ensuring real-time data management and synchronization.
 
 ### Clone the Repository
-git clone https://github.com/reddymanyam/cart-infinity
+- git clone https://github.com/reddymanyam/cart-infinity
 - cd cart-infinity
 
 ### Install Dependencies
