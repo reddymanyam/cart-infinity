@@ -45,7 +45,7 @@ const ProductDetail = ({ cart, setCart }) => {
               component="img"
               image={product.imgSrc}
               alt={product.title}
-              sx={{ width: '100%', height: 'auto', borderRadius: '4px' }}
+              sx={{ width: '80%', borderRadius: '4px', marginBottom: '8px' }}
             />
           </Grid>
           <Grid item xs={12} md={6} sx={{ display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
