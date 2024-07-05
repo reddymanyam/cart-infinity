@@ -8,7 +8,7 @@ import Cart from './components/Cart'
 import { items } from './components/Data'
 import Signup from './components/SignUp'
 import Login from './components/Login'
-
+import Footer from './components/Footer'
 
 const App = () => {
   const [data, setData] = useState([...items])
@@ -26,6 +26,7 @@ const App = () => {
       <Route path="/login" element={<Login />} />
     </Routes>
     </Router>
+    <Footer />
     </>
   )
 }
