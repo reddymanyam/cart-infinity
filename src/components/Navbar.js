@@ -54,26 +54,9 @@ const Navbar = ({ setData, cart }) => {
                 </InputAdornment>
               )
             }}
-            sx={{
-              backgroundColor: '#fff', 
-              borderRadius: '4px', 
-              '& .MuiOutlinedInput-root': {
-                '& fieldset': {
-                  borderColor: 'primary.main', 
-                },
-                '&:hover fieldset': {
-                  borderColor: 'primary.dark', 
-                },
-                '&.Mui-focused fieldset': {
-                  borderColor: 'secondary.main',
-                },
-              }
-            }}
-          />
-
+            sx={{backgroundColor: '#fff', borderRadius: '4px', '& .MuiOutlinedInput-root': {'& fieldset': {borderColor: 'primary.main', 
+                },'&:hover fieldset': { borderColor: 'primary.dark', },'&.Mui-focused fieldset': { borderColor: 'secondary.main',},}}}/>
         </Box>
-
-
 
         <IconButton color="inherit" component={Link} to={'/cart'}  sx={{marginLeft:'70px'}}>
           <Badge badgeContent={cart.length} color="error">
@@ -90,7 +73,6 @@ const Navbar = ({ setData, cart }) => {
 
       {location.pathname === '/' && (
         <Box sx={{ display: 'flex', justifyContent: 'space-between',padding:'4px', backgroundColor: '#008AD8'}}>
-            
             <Button color="inherit" onClick={() => setData(items)} >No Filter</Button>
             <Button color="inherit" onClick={() => filterByCategory('laptops')} >Laptops</Button>
             <Button color="inherit" onClick={() => filterByCategory('mobiles')} >Mobiles</Button>
@@ -100,9 +82,6 @@ const Navbar = ({ setData, cart }) => {
             <Button color="inherit" onClick={() => filterByCategory("women's")}>Women's</Button>
             <Button color="inherit" onClick={() => filterByCategory('Sports')}>Sports</Button>
             <Button color="inherit" onClick={() => filterByCategory('Books')}>Books</Button>
-           
-         
-         
         </Box>
       )}
 
