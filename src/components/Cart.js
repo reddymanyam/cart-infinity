@@ -6,7 +6,6 @@ import {
   Card,
   CardContent,
   CardMedia,
-  Grid,
   Box,
   Container,
 } from '@mui/material';
@@ -54,14 +53,7 @@ const Cart = ({ cart, setCart }) => {
             </Card>
           ))}
           <Box textAlign="center" sx={{ my: 5 }}>
-            <Button
-              variant="contained"
-              color="warning"
-              sx={{ mx: 2 }}
-             
-            >
-              CheckOut
-            </Button>
+            
             <Button variant="contained" color="error" onClick={() => setCart([])}>
               Clear Cart
             </Button>
