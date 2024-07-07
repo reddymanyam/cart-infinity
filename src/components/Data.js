@@ -2,8 +2,8 @@ export const items =  [
     {   
       id:1,
       category: 'mobiles',
-       title:'Realme Note 12 pro',
-       price:'39999',
+      title:'Realme Note 12 pro',
+      price:'39999',
       imgSrc:"https://rukminim2.flixcart.com/image/832/832/xif0q/mobile/l/x/c/-original-imagx6rdpmhuq5ba.jpeg?q=70&crop=false",
       description:"12 GB RAM | 512 GB ROM 16.94 cm (6.67 inch)200MP (OIS) + 8MP + 2MP "
   },
