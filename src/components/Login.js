@@ -15,7 +15,6 @@ const Login = () => {
         e.preventDefault();
         signInWithEmailAndPassword(database, email, password)
             .then((userCredential) => {
-                console.log(userCredential.user);
                 alert("login succesufully...!")
                 navigate('/'); 
             })
