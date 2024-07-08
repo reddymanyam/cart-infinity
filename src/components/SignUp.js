@@ -16,7 +16,6 @@ const Signup = () => {
         e.preventDefault();
         createUserWithEmailAndPassword(database, email, password)
             .then((data) => {
-                console.log(data, 'authdata');
                 navigate('/login'); 
             })
             .catch((error) => {
