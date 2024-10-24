@@ -1,0 +1,13 @@
+# Ignore all log files
+*.log
+
+# But track this specific file, despite the above rule
+!important.log
+
+# Ignore all files in the bin directory
+bin/
+
+# Ignore a specific file
+config/secret.yml
+
+node_modules/
