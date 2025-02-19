@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/cart-infinity/static/css/main.3572f698.css",
+    "main.js": "/cart-infinity/static/js/main.eab83387.js",
+    "static/js/453.6282eb8f.chunk.js": "/cart-infinity/static/js/453.6282eb8f.chunk.js",
+    "index.html": "/cart-infinity/index.html",
+    "main.3572f698.css.map": "/cart-infinity/static/css/main.3572f698.css.map",
+    "main.eab83387.js.map": "/cart-infinity/static/js/main.eab83387.js.map",
+    "453.6282eb8f.chunk.js.map": "/cart-infinity/static/js/453.6282eb8f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3572f698.css",
+    "static/js/main.eab83387.js"
+  ]
+}
